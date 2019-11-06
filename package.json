@@ -1,0 +1,27 @@
+{
+  "name": "node-rest-api-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.4"
+  }
+}
